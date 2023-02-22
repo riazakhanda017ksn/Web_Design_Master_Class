@@ -1,0 +1,27 @@
+body{
+    font-family: 'Shantell Sans', cursive;
+}
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-section h1{
+margin: 0;
+color: brown;
+font-size: 60px;
+}
+
+.first-section h2 span{
+    color: rgb(47, 116, 255);
+    }
+
+    .first-section p{
+        width: 60%;
+        text-align: center;
+        line-height: 25px;
+    }
