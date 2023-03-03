@@ -1,0 +1,85 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.first-class{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 170px;
+    /* background css */
+    background: linear-gradient(rgba(0, 0, 0, 0.305), 
+    rgba(0, 0, 0, 0.481)),url(./image/banner.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.first-class h1{
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.first-class p{
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+
+
+/* navbar csss*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 20px;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li{
+    padding-left: 50px;
+}
+/* footer */
+.footer{
+    text-align: center;
+    background: black;
+    padding: 30px;
+}
+.footer p{
+    color: white;
+}
+
+/* service section css */
+.service-section{
+    padding: 100px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 60px;
+}
+
+.heading h1 span{
+    color: brown;
+}
+
+.heading p{
+    line-height: 30px;
+}
+
