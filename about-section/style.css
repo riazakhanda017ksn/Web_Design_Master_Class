@@ -1,0 +1,196 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.first-class{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 170px;
+    /* background css */
+    background: linear-gradient(rgba(0, 0, 0, 0.305), 
+    rgba(0, 0, 0, 0.481)),url(./image/banner.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.first-class h1{
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.first-class p{
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 300;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    padding-right: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/* service css */
+.service-section{
+    padding: 150px;
+    text-align: center;
+}
+.service-section h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.service-section h1 span{
+    color:  rgb(11, 161, 255);
+}
+.service-section p{
+    font-size: 14px ;
+    font-weight: 300;
+    line-height: 26px;
+}
+/* grid css */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+
+    .service-item{
+        padding: 50px;
+    }
+    .service-item h3{
+        font-weight: 400;
+        font-size: 26px;
+    }
+    .service-item img{
+        width: 100px;
+        height: 100px;
+        padding-bottom: 20px;
+    }
+    /* about section */
+  .about-section{
+    padding: 150px;
+    padding-top: 0;
+  }
+    /* grid */
+    .about-parent {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .image { grid-area: 1 / 1 / 2 / 2; }
+        .content { grid-area: 1 / 2 / 2 / 3; }
+        .image img{
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+        }
+        .content{
+            padding: 50px;
+        }
+        .content h1{
+            font-weight: 500;
+            font-size: 40px;
+        }
+
+
+
+
+
+        /* social css  */
+        .social-icon a img{
+            height: 15px;
+            width: 15px;
+            padding-left: 20px;
+        }
+       
+        .social-icon a {
+            text-decoration: none;
+        }
+        .social-icon{
+            display: flex;
+            align-items: center;
+        }
+
+        .social-icon p{
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+
+
+
+/* company */
+
+.our-office{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 170px;
+    /* background css */
+    background: linear-gradient(rgba(0, 0, 0, 0.619), 
+    rgba(0, 0, 0, 0.587)),url(./image/banner2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.our-office h1{
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.our-office p{
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 300;
+}
+/* footer */
+/*  */
+.footer{
+    text-align: center;
+    background: rgb(90, 90, 90);
+    padding: 40px;
+}
+.footer p{
+    color: white;
+}
+
